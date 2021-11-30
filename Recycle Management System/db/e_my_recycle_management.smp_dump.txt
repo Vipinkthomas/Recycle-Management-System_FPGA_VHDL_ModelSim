@@ -1,0 +1,62 @@
+
+State Machine - |e_my_recycle_management|current_bio_state
+Name current_bio_state.S_DRYING current_bio_state.S_MIXING current_bio_state.S_GRINDING current_bio_state.S_IDLE 
+current_bio_state.S_IDLE 0 0 0 0 
+current_bio_state.S_GRINDING 0 0 1 1 
+current_bio_state.S_MIXING 0 1 0 1 
+current_bio_state.S_DRYING 1 0 0 1 
+
+State Machine - |e_my_recycle_management|current_glass_state
+Name current_glass_state.S_COOLING current_glass_state.S_HEATING current_glass_state.S_CRUSHING current_glass_state.S_WASHING current_glass_state.S_IDLE 
+current_glass_state.S_IDLE 0 0 0 0 0 
+current_glass_state.S_WASHING 0 0 0 1 1 
+current_glass_state.S_CRUSHING 0 0 1 0 1 
+current_glass_state.S_HEATING 0 1 0 0 1 
+current_glass_state.S_COOLING 1 0 0 0 1 
+
+State Machine - |e_my_recycle_management|current_metal_state
+Name current_metal_state.S_COOLING current_metal_state.S_HEATING current_metal_state.S_PRESSING current_metal_state.S_WASHING current_metal_state.S_IDLE 
+current_metal_state.S_IDLE 0 0 0 0 0 
+current_metal_state.S_WASHING 0 0 0 1 1 
+current_metal_state.S_PRESSING 0 0 1 0 1 
+current_metal_state.S_HEATING 0 1 0 0 1 
+current_metal_state.S_COOLING 1 0 0 0 1 
+
+State Machine - |e_my_recycle_management|current_plastic_state
+Name current_plastic_state.S_COOLING current_plastic_state.S_HEATING current_plastic_state.S_GRINDING current_plastic_state.S_WASHING current_plastic_state.S_IDLE 
+current_plastic_state.S_IDLE 0 0 0 0 0 
+current_plastic_state.S_WASHING 0 0 0 1 1 
+current_plastic_state.S_GRINDING 0 0 1 0 1 
+current_plastic_state.S_HEATING 0 1 0 0 1 
+current_plastic_state.S_COOLING 1 0 0 0 1 
+
+State Machine - |e_my_recycle_management|next_bio_state
+Name next_bio_state.S_DRYING next_bio_state.S_MIXING next_bio_state.S_GRINDING next_bio_state.S_IDLE 
+next_bio_state.S_IDLE 0 0 0 0 
+next_bio_state.S_GRINDING 0 0 1 1 
+next_bio_state.S_MIXING 0 1 0 1 
+next_bio_state.S_DRYING 1 0 0 1 
+
+State Machine - |e_my_recycle_management|next_glass_state
+Name next_glass_state.S_COOLING next_glass_state.S_HEATING next_glass_state.S_CRUSHING next_glass_state.S_WASHING next_glass_state.S_IDLE 
+next_glass_state.S_IDLE 0 0 0 0 0 
+next_glass_state.S_WASHING 0 0 0 1 1 
+next_glass_state.S_CRUSHING 0 0 1 0 1 
+next_glass_state.S_HEATING 0 1 0 0 1 
+next_glass_state.S_COOLING 1 0 0 0 1 
+
+State Machine - |e_my_recycle_management|next_metal_state
+Name next_metal_state.S_COOLING next_metal_state.S_HEATING next_metal_state.S_PRESSING next_metal_state.S_WASHING next_metal_state.S_IDLE 
+next_metal_state.S_IDLE 0 0 0 0 0 
+next_metal_state.S_WASHING 0 0 0 1 1 
+next_metal_state.S_PRESSING 0 0 1 0 1 
+next_metal_state.S_HEATING 0 1 0 0 1 
+next_metal_state.S_COOLING 1 0 0 0 1 
+
+State Machine - |e_my_recycle_management|next_plastic_state
+Name next_plastic_state.S_COOLING next_plastic_state.S_HEATING next_plastic_state.S_GRINDING next_plastic_state.S_WASHING next_plastic_state.S_IDLE 
+next_plastic_state.S_IDLE 0 0 0 0 0 
+next_plastic_state.S_WASHING 0 0 0 1 1 
+next_plastic_state.S_GRINDING 0 0 1 0 1 
+next_plastic_state.S_HEATING 0 1 0 0 1 
+next_plastic_state.S_COOLING 1 0 0 0 1 

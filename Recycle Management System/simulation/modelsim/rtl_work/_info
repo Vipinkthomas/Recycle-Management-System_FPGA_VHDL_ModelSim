@@ -1,0 +1,293 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/vipin/Downloads/Recycle Management System/simulation/modelsim
+Ee_2portram
+Z1 w1626904872
+Z2 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/vipin/Downloads/Recycle Management System/e_2portRAM.vhd
+Z6 FC:/Users/vipin/Downloads/Recycle Management System/e_2portRAM.vhd
+l0
+L42
+VGI`Ye[gC3KD0:GcWF6=?>1
+!s100 ^lae3eNbA]?]m4F=XTF8a0
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1627680384
+!i10b 1
+Z9 !s108 1627680384.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/vipin/Downloads/Recycle Management System/e_2portRAM.vhd|
+Z11 !s107 C:/Users/vipin/Downloads/Recycle Management System/e_2portRAM.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Asyn
+R2
+R3
+R4
+DEx4 work 10 e_2portram 0 22 GI`Ye[gC3KD0:GcWF6=?>1
+l63
+L58
+V8FBF1n`X^CIn>4XfPe:YS0
+!s100 VNe7RNAMIk`eNdP45KzWC1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ee_flipflop
+Z14 w1627404169
+R3
+R4
+R0
+Z15 8C:/Users/vipin/Downloads/Recycle Management System/e_flipflop.vhd
+Z16 FC:/Users/vipin/Downloads/Recycle Management System/e_flipflop.vhd
+l0
+L4
+V4A3feXKGR5?k7nmUg@`RG3
+!s100 J_GUi0P3ZJ9^IAfbL:DNh3
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/vipin/Downloads/Recycle Management System/e_flipflop.vhd|
+Z18 !s107 C:/Users/vipin/Downloads/Recycle Management System/e_flipflop.vhd|
+!i113 1
+R12
+R13
+Aa_flipflop
+R3
+R4
+DEx4 work 10 e_flipflop 0 22 4A3feXKGR5?k7nmUg@`RG3
+l14
+L10
+V4[T^HKz7=Qh2WQ[kHn^4E1
+!s100 ]on5jRBlZ_UcRdKF<e9T40
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ee_hex7seg
+Z19 w1627588612
+R3
+R4
+R0
+Z20 8C:/Users/vipin/Downloads/Recycle Management System/e_hex7seg.vhd
+Z21 FC:/Users/vipin/Downloads/Recycle Management System/e_hex7seg.vhd
+l0
+L4
+VQ;W^AZdTDiPh1ajR:gEC30
+!s100 jNMnOQNbWRfk4:BM7@NeC1
+R7
+32
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|C:/Users/vipin/Downloads/Recycle Management System/e_hex7seg.vhd|
+Z23 !s107 C:/Users/vipin/Downloads/Recycle Management System/e_hex7seg.vhd|
+!i113 1
+R12
+R13
+Aa_hex7seg
+R3
+R4
+DEx4 work 9 e_hex7seg 0 22 Q;W^AZdTDiPh1ajR:gEC30
+l13
+L9
+V41MBXVz1KU?a3CC>n`:0c1
+!s100 kcF[[97l_]YeGfDHRP>Tk1
+R7
+32
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Ee_modulo_counter
+R1
+Z24 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R3
+R4
+R0
+Z25 8C:/Users/vipin/Downloads/Recycle Management System/e_modulo_counter.vhd
+Z26 FC:/Users/vipin/Downloads/Recycle Management System/e_modulo_counter.vhd
+l0
+L5
+Vz@Y[UYGNg[VA5CN1PV^E]3
+!s100 [_mUo<41Sb58`4MA;OoC83
+R7
+32
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-work|work|C:/Users/vipin/Downloads/Recycle Management System/e_modulo_counter.vhd|
+Z28 !s107 C:/Users/vipin/Downloads/Recycle Management System/e_modulo_counter.vhd|
+!i113 1
+R12
+R13
+Aa_modulo_counter
+R24
+R3
+R4
+DEx4 work 16 e_modulo_counter 0 22 z@Y[UYGNg[VA5CN1PV^E]3
+l21
+L14
+V6D=iJ@4aCDzf?;zJWoWQA1
+!s100 HK]T>_PeA2==BNZZ_<ICk0
+R7
+32
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Ee_my_recycle_management
+Z29 w1627680013
+R24
+R3
+R4
+R0
+Z30 8C:/Users/vipin/Downloads/Recycle Management System/e_my_recycle_management.vhd
+Z31 FC:/Users/vipin/Downloads/Recycle Management System/e_my_recycle_management.vhd
+l0
+L5
+VL]9QSbk9V<?5@JPNC7CXM2
+!s100 BF72<4:Fo11RWD0<_@N3_2
+R7
+32
+R8
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-work|work|C:/Users/vipin/Downloads/Recycle Management System/e_my_recycle_management.vhd|
+Z33 !s107 C:/Users/vipin/Downloads/Recycle Management System/e_my_recycle_management.vhd|
+!i113 1
+R12
+R13
+Aa_my_recycle_management
+R24
+R3
+R4
+DEx4 work 23 e_my_recycle_management 0 22 L]9QSbk9V<?5@JPNC7CXM2
+l204
+L20
+VcWQhkEZ?AOOd<c__kXN9;3
+!s100 MCOFbG4@G92AdT]`DL<e^2
+R7
+32
+R8
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Ee_my_recycle_management_vhd_tst
+Z34 w1627672093
+Z35 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R24
+R3
+R4
+R0
+Z36 8C:/Users/vipin/Downloads/Recycle Management System/simulation/modelsim/e_my_recycle_management.vht
+Z37 FC:/Users/vipin/Downloads/Recycle Management System/simulation/modelsim/e_my_recycle_management.vht
+l0
+L39
+V;=4[6@650fWR9jmJ7?08Q2
+!s100 E=?_]lTF9hUiZC:eoafl91
+R7
+32
+Z38 !s110 1627680385
+!i10b 1
+R9
+Z39 !s90 -reportprogress|300|-work|work|C:/Users/vipin/Downloads/Recycle Management System/simulation/modelsim/e_my_recycle_management.vht|
+Z40 !s107 C:/Users/vipin/Downloads/Recycle Management System/simulation/modelsim/e_my_recycle_management.vht|
+!i113 1
+R12
+R13
+Ae_my_recycle_management_arch
+R35
+R24
+R3
+R4
+DEx4 work 31 e_my_recycle_management_vhd_tst 0 22 ;=4[6@650fWR9jmJ7?08Q2
+l80
+L41
+V7^lZ2b2aZiLdAYEJTnWT_2
+!s100 @1IQJcIeH3C`XNPA17E=32
+R7
+32
+R38
+!i10b 1
+R9
+R39
+R40
+!i113 1
+R12
+R13
+Ee_regne
+Z41 w1627404187
+R3
+R4
+R0
+Z42 8C:/Users/vipin/Downloads/Recycle Management System/e_regne.vhd
+Z43 FC:/Users/vipin/Downloads/Recycle Management System/e_regne.vhd
+l0
+L4
+VLJBoV`4D0XUMzh2E3kHFD1
+!s100 _Lhe;=3alYH<j?:FVn6N20
+R7
+32
+R8
+!i10b 1
+R9
+Z44 !s90 -reportprogress|300|-work|work|C:/Users/vipin/Downloads/Recycle Management System/e_regne.vhd|
+Z45 !s107 C:/Users/vipin/Downloads/Recycle Management System/e_regne.vhd|
+!i113 1
+R12
+R13
+Aa_regne
+R3
+R4
+DEx4 work 7 e_regne 0 22 LJBoV`4D0XUMzh2E3kHFD1
+l15
+L11
+VoI4jkd^<Dd0Yj]z^d>@M02
+!s100 Gl48QU1OQC7gE@SW2[;Kl1
+R7
+32
+R8
+!i10b 1
+R9
+R44
+R45
+!i113 1
+R12
+R13
